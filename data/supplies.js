@@ -22,6 +22,7 @@ async function getSale(id){
                     .findOne({_id: new objectId(id)});
     return supply;
 }
+//pepe
 
 async function getSalesByMethod(method){
     const connectiondb = await conn.getConnection();
